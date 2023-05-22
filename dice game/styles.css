@@ -1,0 +1,57 @@
+
+#container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  color: yellow;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.dice {
+  width: 180px;
+  height: 180px;
+}
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#atag {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+#atag:hover {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7),
+               0 0 20px rgba(255, 255, 255, 0.9),
+               0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
